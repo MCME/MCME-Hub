@@ -1,0 +1,11 @@
+name: NewPlayerWorld-Maski
+version: '${project.version}'
+main: com.mcmiddleearth.newplayerworldmaski.NewPlayerWorldMaski
+api-version: 1.18
+authors: [ Jubo ]
+description: NewPlayerWorld Listener
+
+permissions:
+  npw.staff:
+    description: for administrative purposes
+    default: op

@@ -2,7 +2,7 @@ name: NewPlayerWorld-Maski
 version: '${project.version}'
 main: com.mcmiddleearth.newplayerworldmaski.NewPlayerWorldMaski
 api-version: 1.18
-authors: [ Jubo ]
+authors: [ Jubo, maski98 ]
 description: NewPlayerWorld Listener
 
 permissions:

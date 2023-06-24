@@ -67,13 +67,13 @@ public class    handlerF {
                         removeBlindness(player);
                         Bukkit.dispatchCommand(player, cinematic2);
                     }
-                }.runTaskLater(NewPlayerWorldMaski.getInstance(),timer2 * 20);
+                }.runTaskLater(NewPlayerWorldMaski.getInstance(),(timer1 + blindness_time) * 20);
                 new BukkitRunnable(){
                     @Override
                     public void run() {
                         setBlindness(player);
                     }
-                }.runTaskLater(NewPlayerWorldMaski.getInstance(),(timer2 + blindness_time) * 20);
+                }.runTaskLater(NewPlayerWorldMaski.getInstance(),timer2 * 20);
 
                 //starting Cinematic 3
                 new BukkitRunnable(){
@@ -82,7 +82,7 @@ public class    handlerF {
                         removeBlindness(player);
                         Bukkit.dispatchCommand(player, cinematic3);
                     }
-                }.runTaskLater(NewPlayerWorldMaski.getInstance(),timer3 * 20);
+                }.runTaskLater(NewPlayerWorldMaski.getInstance(),(timer2 + blindness_time) * 20);
 
                 Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "pc startother " +player.getName()+ " test1");
             case FIVE:

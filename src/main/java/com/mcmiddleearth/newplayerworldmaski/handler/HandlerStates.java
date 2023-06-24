@@ -1,5 +1,9 @@
 package com.mcmiddleearth.newplayerworldmaski.handler;
 
+/**
+ *
+ * @author Jubo, Maski98
+ */
 public enum HandlerStates {
 
     ONE     (1),

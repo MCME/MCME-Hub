@@ -1,0 +1,10 @@
+blindness:
+  time: 2
+cinematicTime:
+  1: 10
+  2: 10
+  3: 10
+cinematicCommand:
+  1: cinematic1
+  2: cinematic2
+  3: cinematic3

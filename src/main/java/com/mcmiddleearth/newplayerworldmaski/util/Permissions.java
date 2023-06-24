@@ -1,5 +1,9 @@
 package com.mcmiddleearth.newplayerworldmaski.util;
 
+/**
+ *
+ * @author Jubo
+ */
 public enum Permissions {
 
     STAFF       ("npw.staff");

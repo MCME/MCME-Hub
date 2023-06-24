@@ -13,6 +13,10 @@ import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.event.player.PlayerMoveEvent;
 import org.bukkit.event.player.PlayerSwapHandItemsEvent;
 
+/**
+ *
+ * @author Jubo
+ */
 public class PlayerListener implements Listener {
 
     @EventHandler(priority = EventPriority.NORMAL)
